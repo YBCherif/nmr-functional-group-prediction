@@ -18,7 +18,7 @@ model that sees both is far more reliable than either alone.**
 | ¹³C only | 97.8% | 99.8% | 99.97% |
 | **Fusion ¹H + ¹³C** (1235 shared classes) | **99.2%** | **99.8%** | **99.9%** |
 
-![Training curves — 1H classifier](figures/1h_classification_training.png)
+![Training curves — 1H classifier](figures/1h_classification_training.jpeg)
 
 *Training curves for the ¹H classifier. Train and validation stay close throughout,
 which reflects the on-the-fly spectrum generation: the model never sees the same
