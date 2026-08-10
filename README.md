@@ -97,7 +97,7 @@ line shapes over a fixed grid:
 | Noise | SNR log-uniform in [150, 500], scaled to peak amplitude | same |
 | Residual solvent peak | added 70% of the time (CDCl₃, DMSO-d₆, D₂O) | added 70% of the time (CDCl₃ 77.16 ppm, DMSO-d₆ 39.52 ppm) |
 
-![Simulated 13C spectrum of aspirin](/figures/aspirin_13c_simulated.png)
+![Simulated 13C spectrum of aspirin](figures/aspirin_13c_simulated.png)
 
 *Simulated ¹³C spectrum of aspirin. Blue: the molecule's own carbons — the ester
 carbonyl near 170 ppm, aromatic carbons between 120 and 155 ppm, the methyl near
