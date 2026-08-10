@@ -26,6 +26,28 @@ model that sees both is far more reliable than either alone.**
 | ¹³C only | 0.751 |
 | **Fusion ¹H + ¹³C** | **0.926** |
 
+### Per-function results — fusion model
+
+| Functional group | Precision | Recall | F1 | Threshold |
+|---|---|---|---|---|
+| aldehyde | 0.989 | 0.988 | **0.989** | 0.45 |
+| aromatic | 0.989 | 0.986 | **0.987** | 0.50 |
+| nitrile | 0.972 | 0.953 | **0.962** | 0.65 |
+| alkene | 0.983 | 0.942 | **0.962** | 0.65 |
+| alcohol | 0.931 | 0.961 | **0.946** | 0.55 |
+| N-heterocycle | 0.930 | 0.963 | **0.946** | 0.55 |
+| sulfoxide | 0.908 | 0.942 | **0.925** | 0.55 |
+| carboxylic acid | 0.915 | 0.934 | **0.924** | 0.55 |
+| phenol | 0.916 | 0.927 | **0.921** | 0.75 |
+| ether | 0.915 | 0.926 | **0.921** | 0.70 |
+| ester | 0.895 | 0.939 | **0.917** | 0.55 |
+| ketone | 0.912 | 0.908 | **0.910** | 0.60 |
+| halide | 0.853 | 0.943 | **0.896** | 0.65 |
+| amide | 0.856 | 0.878 | **0.867** | 0.60 |
+| amine | 0.747 | 0.902 | **0.817** | 0.50 |
+
+**Macro F1 : 0.926**
+
 The fusion model does not merely average the two: it learns cross-modal interactions.
 The clearest example is the **aldehyde** group, where fusion beats *both* single-modality
 models by a wide margin:
