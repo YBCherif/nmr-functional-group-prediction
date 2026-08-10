@@ -282,6 +282,18 @@ separately (too large for version control).
 
 ---
 
+## Related work
+
+Predicting functional groups from spectra with neural networks has been explored
+with other modalities, notably FTIR and MS ([Chem. Sci. 2020](https://pubs.rsc.org/en/Content/ArticleLanding/2020/SC/C9SC06240H)),
+and combining several spectroscopic techniques is known to improve accuracy
+([ACS Omega 2025](https://pubs.acs.org/doi/10.1021/acsomega.5c01903)) — the same
+rationale behind fusing ¹H and ¹³C here. This project focuses on NMR alone,
+using the complementarity of the two nuclei rather than combining different
+spectroscopic methods.
+
+---
+
 ## Stack
 
 Python · TensorFlow / Keras · NumPy · pandas · scikit-learn · RDKit · Plotly
