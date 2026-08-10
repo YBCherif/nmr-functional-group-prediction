@@ -215,13 +215,13 @@ spot.
 
 ```
 ├── notebooks/
-│   ├── 1_classification_1H.ipynb        # ¹H molecule classifier
-│   ├── 2_classification_13C.ipynb       # ¹³C molecule classifier
-│   ├── 3_classification_fusion.ipynb    # probability-level fusion of both classifiers
-│   ├── 4_annotations_smiles.ipynb       # PubChem SMILES retrieval + RDKit SMARTS annotation
-│   ├── 5_prediction_1H.ipynb            # functional group prediction, ¹H only
-│   ├── 6_prediction_13C.ipynb           # functional group prediction, ¹³C only
-│   └── 7_prediction_fusion.ipynb        # embedding-level fusion — best model
+│   ├── 1_NMR_1H_Classification.ipynb        # ¹H molecule classifier
+│   ├── 2_NMR_13C_Classification.ipynb       # ¹³C molecule classifier
+│   ├── 3_Classification_NMR_Fusion.ipynb    # probability-level fusion of both classifiers
+│   ├── 4_SMILES_Molecules_NMR.ipynb         # PubChem SMILES retrieval + RDKit SMARTS annotation
+│   ├── 5_Prediction_NMR_1H.ipynb            # functional group prediction, ¹H only
+│   ├── 6_Prediction_NMR_13C.ipynb           # functional group prediction, ¹³C only
+│   └── 7_Prediction_NMR_Fusion.ipynb        # embedding-level fusion — best model
 ├── figures/
 └── README.md
 ```
