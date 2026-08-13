@@ -259,6 +259,8 @@ spot.
 │   ├── 6_Prediction_NMR_13C.ipynb           # functional group prediction, ¹³C only
 │   └── 7_Prediction_NMR_Fusion.ipynb        # embedding-level fusion — best model
 ├── figures/
+│   ├── 1h_classification_training.jpeg
+│   └── aspirin_13c_simulated.png
 └── README.md
 ```
 
